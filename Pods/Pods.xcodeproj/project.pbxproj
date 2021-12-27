@@ -1,0 +1,1278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0600E03823A5350C34BA2B2BFAD5059B /* CropToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89061AE25F183EB70AC2F2651401156E /* CropToolbar.swift */; };
+		0D6047F883BA2372E974E52FB388DCF5 /* GeometryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC94AC9DE5ABB5A82FCDD52379650F /* GeometryHelper.swift */; };
+		0F006CA70ACFA63BC13696361B658E37 /* Pods-NeoastraTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1169CDA72CF65F35705BE73BF3F4A801 /* Pods-NeoastraTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127DE0DA926DE3E10D5F7A079B694CBB /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21144155D31D73A1C8CBDBC70FF9E286 /* Orientation.swift */; };
+		19290EE20C19CE2EC20041A1598D69A2 /* CropScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC47458038BC806533CD38965FD287F /* CropScrollView.swift */; };
+		19A8C19E7E4435CD38DAFFD7FA9EE863 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502008B9D5310B59F048B0063D9E2F13 /* UIImageExtensions.swift */; };
+		1D909E50865222C5AA087DD38E11A0F3 /* ToolBarButtonImageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54412AAADBAB0F00BF438ADCED56733E /* ToolBarButtonImageBuilder.swift */; };
+		1F9A7CFEB64163C5BF0C5ED3C6705C0A /* Mantis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37313F8E3128E556588DCE2607190BF1 /* Mantis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E98F97256923B85CDE6A4CF37F63B0 /* RatioPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AA828281D3983E6BB2746A7B4F01C /* RatioPresenter.swift */; };
+		22D506BE7CE3070979842172E05BE2E2 /* Mantis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21771A92800CA6787A7F577A72A6750E /* Mantis.swift */; };
+		2D64A36A7E640DA961715E7459F195EA /* RotationDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74757A1C42678E6F82602486E4DD471 /* RotationDial.swift */; };
+		342F188AEA0A89C679C794B3AFD040ED /* CGAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C470436968C9A57A13C174C4957DE9E /* CGAngle.swift */; };
+		3526B76FE9B0CDC55CD0A676739B35E5 /* Pods-NeoastraTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1FC53BEF61E97865C91D117146B2DE /* Pods-NeoastraTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C163C809580EBA39B40E3A786BBFDA7 /* Pods-NeoastraTest-NeoastraTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 339D660629DE13EDC1778461996A132F /* Pods-NeoastraTest-NeoastraTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCD287A15B8340D5BA28CBBF260CA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		413ED9308093505D016CCD16724B37C5 /* CropMaskProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62AAC1621DD3E929E2F3625C2CA2F69 /* CropMaskProtocal.swift */; };
+		447A907644584FEC16962E391332EA64 /* Pods-NeoastraTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 436DECB1B245CC6E97831788EAF5E102 /* Pods-NeoastraTest-dummy.m */; };
+		4CB50C4A29078EE7D371F31D51680E7A /* CropVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD4115230A5B422AECFC96BF8F9F37 /* CropVisualEffectView.swift */; };
+		4EC8DC7511C436CDCBD76722331042C4 /* RotationDialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF62806DE793EE4E0C22B3C3FBC437E /* RotationDialViewModel.swift */; };
+		4F029C32C567A388F0F528D9CC5F4550 /* CropOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8787DE0497EC449FC5EC6FEAA74333 /* CropOverlayView.swift */; };
+		6008CC1A53FDAF0B207CCA7F28FC1621 /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737976E4763A7C5BD23579BC5611EC7 /* CoreGraphicsExtensions.swift */; };
+		6090BA06DE5A5EBF1E937EC94A30DA03 /* CropMaskViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8561DF1F03C727120821A9D043138A /* CropMaskViewManager.swift */; };
+		628835984ABD34F86415EEA7F8AA6983 /* CGImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E550A010C48F2F2786655508E3421A /* CGImageExtensions.swift */; };
+		6934E901F1259434B9BB1A1928731284 /* CropBoxFreeAspectFrameUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40FC203C695551E7B955E0BBD503B6 /* CropBoxFreeAspectFrameUpdater.swift */; };
+		71648A676783A09D462BB311AA93B00C /* CropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22459ECF495CEF6214F4B83947B981 /* CropViewModel.swift */; };
+		758A0375A5B0647926566C4759DA8F01 /* ToolbarButtonOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151EC06FC9037EDC89FD071AE2083A74 /* ToolbarButtonOptions.swift */; };
+		8023F87162FF3B11EAE1E0B5E64D1897 /* CropView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906205DB701B543FDBA687C94BE167C /* CropView+UIScrollViewDelegate.swift */; };
+		8228E6571F5E037B1CE983A27C180127 /* Pods-NeoastraTest-NeoastraTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2E508FF7E8F0D7244154F80D6C3D97 /* Pods-NeoastraTest-NeoastraTestUITests-dummy.m */; };
+		8F86F041893E51F36D3D7FA8E7EE08DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9169323E6097FEE8B4E4FC091295AFC6 /* Mantis.h in Headers */ = {isa = PBXBuildFile; fileRef = 125F976CD996FA919298FFF41EC027DE /* Mantis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96AAF2CB2BF16845550B79FFB2C813AB /* RatioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B099ACF06F0DCC206D336DACE84D4D /* RatioOptions.swift */; };
+		9F03D16F08554C68EFA52869286DCB64 /* RotationDialPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2085BEB80ACCAB132A6AD668A924654 /* RotationDialPlate.swift */; };
+		A02D4D882E6E0CDD5A168D577CA7008B /* RatioItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039D29B696C1C8F2689CA599AAD45C48 /* RatioItemView.swift */; };
+		A3E3E4DDC732162D28525B2362927940 /* CropViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDEAD335C6401BBF959176EC740A39C /* CropViewStatus.swift */; };
+		A7A603050D5BC6643A7D500B75AB214F /* CropToolbarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34EC88D3CF3CD4FA241795C202EE112 /* CropToolbarProtocol.swift */; };
+		AB1A6B5ED583AC6D7FBCB33288B2FFB9 /* LocalizedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B693BF5942AA93729AF43B70893C /* LocalizedHelper.swift */; };
+		B47A3C4517F7DEA8E31A5A535D3D64CF /* FixedRatioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF05AEA1D66F93229008DC7BBA6BE1 /* FixedRatioManager.swift */; };
+		C0A6F3BC8E2EDCD236F17A2034F544FE /* MantisLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 175BBB20B464CFC26040D69F313992DB /* MantisLocalizable.strings */; };
+		C2FB0BC864364719A553B969A287D789 /* RatioSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D012B84CB865ADF47A43E026451408 /* RatioSelector.swift */; };
+		C41FFF9777601A4B2BC8C5BF239A9882 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D13949F8AA1B479618B6A8D528C8D /* ImageContainer.swift */; };
+		C653BBBE9010C36D96AB07BB84830707 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0FC9E461DC6CC1730DAFE65EE685C /* CropViewController.swift */; };
+		C8A4B72605A927F6F0929214CD0A0755 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6FF42549723BA4D544BE60EC3E4E1 /* CropView.swift */; };
+		D4BF6F9EA9F150F29AC12AD587CE7F51 /* CropBoxLockedAspectFrameUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE702F0104DB60F0E5CAABABD9A0BD6 /* CropBoxLockedAspectFrameUpdater.swift */; };
+		D74CAFF2C4C4C8661391E41048E57523 /* Mantis-Resource in Resources */ = {isa = PBXBuildFile; fileRef = E4BEFC3EC59E2FC20A00BECBF928F938 /* Mantis-Resource */; };
+		DF8A49164D243EB99A9CB5A77F6C542D /* Pods-NeoastraTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B7DA273F97DB45FA81C46385382AC9 /* Pods-NeoastraTestTests-dummy.m */; };
+		EAC51C93BA24FB939ADFA796CB617E01 /* RotationDial+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09EB03649FA2EAAE7ADEFEBCDDB3F0 /* RotationDial+Touches.swift */; };
+		EF95C1F86F40DCC523254B2ED5B3A87D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F5474D9A72C0BFFF54BA44B682C508FE /* DialConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91CF6EF820D9EB584C3DB098715BD2 /* DialConfig.swift */; };
+		F94BF0572484C62EAABF6B368AC0222F /* Mantis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 718518627B9E4683192B914E26C8FA8B /* Mantis-dummy.m */; };
+		F9D5390CBAC0D369E23F5EAA734EB33C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FC20693AC2B9974297CC61920CD92E6A /* RotationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8C8FA9656A76C4EC82A3AAFE931F20 /* RotationCalculator.swift */; };
+		FDD3990AF1E8554F8DA84F0BF5C75A09 /* CropView+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3B64DA4866E6DF344BB966C47ED89 /* CropView+Touches.swift */; };
+		FFA88CDAFD8B3D09E85C3228F4BC8DEF /* CropDimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9805031B1765BB6B89E36A88ADF23D61 /* CropDimmingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C8DCF9A98ACB3948C3433B1E649DE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418D3075F70B272B304B89BF311E5FAE;
+			remoteInfo = "Mantis-Resource";
+		};
+		68A486BB2D96FDF08ED37EC3B70AC4BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B765AE885D71986CD6D5EC0726D8ED31;
+			remoteInfo = Mantis;
+		};
+		B1A17DAD82C672CECF9878011DC34BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B765AE885D71986CD6D5EC0726D8ED31;
+			remoteInfo = Mantis;
+		};
+		D3A916A454585CC132FD7300CDD0D201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A179EBECFD5BEA54857DD3EE55BC0D21;
+			remoteInfo = "Pods-NeoastraTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039D29B696C1C8F2689CA599AAD45C48 /* RatioItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioItemView.swift; path = Sources/Mantis/CropViewController/RatioItemView.swift; sourceTree = "<group>"; };
+		0C54629D21D745D58ED7FC0F91CC078F /* Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E1409415C35B15E78D268E61F085883 /* Pods-NeoastraTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoastraTest.release.xcconfig"; sourceTree = "<group>"; };
+		1169CDA72CF65F35705BE73BF3F4A801 /* Pods-NeoastraTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeoastraTestTests-umbrella.h"; sourceTree = "<group>"; };
+		11AF05AEA1D66F93229008DC7BBA6BE1 /* FixedRatioManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedRatioManager.swift; path = Sources/Mantis/CropViewController/FixedRatioManager.swift; sourceTree = "<group>"; };
+		125F976CD996FA919298FFF41EC027DE /* Mantis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantis.h; path = Sources/Mantis/Mantis.h; sourceTree = "<group>"; };
+		151EC06FC9037EDC89FD071AE2083A74 /* ToolbarButtonOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolbarButtonOptions.swift; path = Sources/Mantis/ToolbarButtonOptions.swift; sourceTree = "<group>"; };
+		193744FE5CEEE629E22C41B34B2982C9 /* Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A22459ECF495CEF6214F4B83947B981 /* CropViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewModel.swift; path = Sources/Mantis/CropView/CropViewModel.swift; sourceTree = "<group>"; };
+		1D8C8FA9656A76C4EC82A3AAFE931F20 /* RotationCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationCalculator.swift; path = Sources/Mantis/RotationDial/RotationCalculator.swift; sourceTree = "<group>"; };
+		21079E84FC0E859FC3977B2E209D0983 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = de.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		21144155D31D73A1C8CBDBC70FF9E286 /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Sources/Mantis/Helpers/Orientation.swift; sourceTree = "<group>"; };
+		21771A92800CA6787A7F577A72A6750E /* Mantis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mantis.swift; path = Sources/Mantis/Mantis.swift; sourceTree = "<group>"; };
+		236476E35D4EA9276A5B8F94DCB19A87 /* Pods-NeoastraTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoastraTest-Info.plist"; sourceTree = "<group>"; };
+		24228B2E5A4FD7D9FE59CBCD37CD18F9 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = en.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		253D13949F8AA1B479618B6A8D528C8D /* ImageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContainer.swift; path = Sources/Mantis/CropView/ImageContainer.swift; sourceTree = "<group>"; };
+		26A0FC9E461DC6CC1730DAFE65EE685C /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Sources/Mantis/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
+		2BA04917E0591E3A0A1775A6C0CB26B2 /* Pods-NeoastraTest-NeoastraTestUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NeoastraTest-NeoastraTestUITests"; path = Pods_NeoastraTest_NeoastraTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA6FF42549723BA4D544BE60EC3E4E1 /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = Sources/Mantis/CropView/CropView.swift; sourceTree = "<group>"; };
+		2FAD4115230A5B422AECFC96BF8F9F37 /* CropVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropVisualEffectView.swift; path = Sources/Mantis/MaskBackground/CropVisualEffectView.swift; sourceTree = "<group>"; };
+		305ADA792756661312A76F9A0C80C2E6 /* Pods-NeoastraTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoastraTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30E550A010C48F2F2786655508E3421A /* CGImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGImageExtensions.swift; path = Sources/Mantis/Extensions/CGImageExtensions.swift; sourceTree = "<group>"; };
+		316D22F8B19400DBC5073973480D1521 /* Mantis */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mantis; path = Mantis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		339D660629DE13EDC1778461996A132F /* Pods-NeoastraTest-NeoastraTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeoastraTest-NeoastraTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		354AB33D67AC1CB6F3A5EB2562A4372D /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "ko-KR.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		363AA828281D3983E6BB2746A7B4F01C /* RatioPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioPresenter.swift; path = Sources/Mantis/CropViewController/RatioPresenter.swift; sourceTree = "<group>"; };
+		37313F8E3128E556588DCE2607190BF1 /* Mantis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantis-umbrella.h"; sourceTree = "<group>"; };
+		417DDE00DAD670C819A97AB7EC4D92F9 /* Mantis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantis.debug.xcconfig; sourceTree = "<group>"; };
+		42F943990579A72DC74BE9A18434B963 /* Pods-NeoastraTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeoastraTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		436DECB1B245CC6E97831788EAF5E102 /* Pods-NeoastraTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeoastraTest-dummy.m"; sourceTree = "<group>"; };
+		45567FC34D3380FFD9ACBCB2693F8DC3 /* Pods-NeoastraTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoastraTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		4849F20206B3F6948C7D056EF7F2F11F /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ja.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		4AE702F0104DB60F0E5CAABABD9A0BD6 /* CropBoxLockedAspectFrameUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropBoxLockedAspectFrameUpdater.swift; path = Sources/Mantis/CropView/CropBoxLockedAspectFrameUpdater.swift; sourceTree = "<group>"; };
+		4AF52CCF62B5B7645FA9DB6AFB186BDD /* Mantis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mantis-Info.plist"; sourceTree = "<group>"; };
+		4C470436968C9A57A13C174C4957DE9E /* CGAngle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGAngle.swift; path = Sources/Mantis/RotationDial/CGAngle.swift; sourceTree = "<group>"; };
+		4F0EB6BC95504022064AEB36AC87430A /* Pods-NeoastraTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoastraTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		502008B9D5310B59F048B0063D9E2F13 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/Mantis/Extensions/UIImageExtensions.swift; sourceTree = "<group>"; };
+		54412AAADBAB0F00BF438ADCED56733E /* ToolBarButtonImageBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolBarButtonImageBuilder.swift; path = Sources/Mantis/CropViewController/ToolBarButtonImageBuilder.swift; sourceTree = "<group>"; };
+		55AEA2B81E2425EAE09AD6A0B0FDAE27 /* ResourceBundle-Resource-Mantis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resource-Mantis-Info.plist"; sourceTree = "<group>"; };
+		63C04AB56549C05FD79F8F248E773903 /* Pods-NeoastraTestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NeoastraTestTests"; path = Pods_NeoastraTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB3B64DA4866E6DF344BB966C47ED89 /* CropView+Touches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CropView+Touches.swift"; path = "Sources/Mantis/CropView/CropView+Touches.swift"; sourceTree = "<group>"; };
+		6F15FBD9F6A18713A1C491D6F8018F6E /* Mantis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mantis.modulemap; sourceTree = "<group>"; };
+		718518627B9E4683192B914E26C8FA8B /* Mantis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantis-dummy.m"; sourceTree = "<group>"; };
+		72FCA8E928C29165D26A5F7C85D22B28 /* Pods-NeoastraTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeoastraTestTests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A993AD618E08A87E0DA7F5E87B85813 /* Pods-NeoastraTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoastraTest.debug.xcconfig"; sourceTree = "<group>"; };
+		7F8787DE0497EC449FC5EC6FEAA74333 /* CropOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlayView.swift; path = Sources/Mantis/CropView/CropOverlayView.swift; sourceTree = "<group>"; };
+		834C1CE99F1F0135AC031F97B596FBB9 /* Pods-NeoastraTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeoastraTest.modulemap"; sourceTree = "<group>"; };
+		849C41C2F9B0970F45C420A4235CAAC0 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = it.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		878B683ADF81A76981E04442214C6C72 /* Pods-NeoastraTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeoastraTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88D012B84CB865ADF47A43E026451408 /* RatioSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioSelector.swift; path = Sources/Mantis/CropViewController/RatioSelector.swift; sourceTree = "<group>"; };
+		89061AE25F183EB70AC2F2651401156E /* CropToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropToolbar.swift; path = Sources/Mantis/CropViewController/CropToolbar.swift; sourceTree = "<group>"; };
+		8AC4BB85F69864EC866D3807683F8951 /* Pods-NeoastraTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NeoastraTest"; path = Pods_NeoastraTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDEAD335C6401BBF959176EC740A39C /* CropViewStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewStatus.swift; path = Sources/Mantis/CropView/CropViewStatus.swift; sourceTree = "<group>"; };
+		8C04B693BF5942AA93729AF43B70893C /* LocalizedHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizedHelper.swift; path = Sources/Mantis/Helpers/LocalizedHelper.swift; sourceTree = "<group>"; };
+		8D1069527A10D8277BCE0A49A5B20078 /* Pods-NeoastraTest-NeoastraTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoastraTest-NeoastraTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F8561DF1F03C727120821A9D043138A /* CropMaskViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskViewManager.swift; path = Sources/Mantis/CropView/CropMaskViewManager.swift; sourceTree = "<group>"; };
+		9805031B1765BB6B89E36A88ADF23D61 /* CropDimmingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropDimmingView.swift; path = Sources/Mantis/MaskBackground/CropDimmingView.swift; sourceTree = "<group>"; };
+		9A0AC72A4DE8BE88813AB4276A290514 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = fr.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		9A91CF6EF820D9EB584C3DB098715BD2 /* DialConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialConfig.swift; path = Sources/Mantis/RotationDial/DialConfig.swift; sourceTree = "<group>"; };
+		9AF62806DE793EE4E0C22B3C3FBC437E /* RotationDialViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialViewModel.swift; path = Sources/Mantis/RotationDial/RotationDialViewModel.swift; sourceTree = "<group>"; };
+		9B04575B8B6AE67DCAF9949B44F339A6 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "zh-Hans.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		9C2E508FF7E8F0D7244154F80D6C3D97 /* Pods-NeoastraTest-NeoastraTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeoastraTest-NeoastraTestUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34EC88D3CF3CD4FA241795C202EE112 /* CropToolbarProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropToolbarProtocol.swift; path = Sources/Mantis/CropViewController/CropToolbarProtocol.swift; sourceTree = "<group>"; };
+		A6F747D955FF78F213BC1A74D6B28C48 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ko.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		A737976E4763A7C5BD23579BC5611EC7 /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreGraphicsExtensions.swift; path = Sources/Mantis/Extensions/CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
+		B382235B8861D4B32CB5D813CFC785BA /* Pods-NeoastraTest-NeoastraTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeoastraTest-NeoastraTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3EC7BD05D239B7115B757DBC9119D43 /* Pods-NeoastraTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoastraTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		B62AAC1621DD3E929E2F3625C2CA2F69 /* CropMaskProtocal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskProtocal.swift; path = Sources/Mantis/MaskBackground/CropMaskProtocal.swift; sourceTree = "<group>"; };
+		B72FD74B9682796DEB7D3E2EF148BAF7 /* Pods-NeoastraTest-NeoastraTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeoastraTest-NeoastraTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B8DB7856FD4946A7395D5F8AAE957B36 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ar.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		BBBC94AC9DE5ABB5A82FCDD52379650F /* GeometryHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeometryHelper.swift; path = Sources/Mantis/Helpers/GeometryHelper.swift; sourceTree = "<group>"; };
+		BE74088146AD5AD189B078FB1C1BF68A /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = es.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		C57D0B3C10A988DB574F88E47E9F1F88 /* Pods-NeoastraTest-NeoastraTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoastraTest-NeoastraTestUITests-Info.plist"; sourceTree = "<group>"; };
+		CFC47458038BC806533CD38965FD287F /* CropScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropScrollView.swift; path = Sources/Mantis/CropView/CropScrollView.swift; sourceTree = "<group>"; };
+		D74757A1C42678E6F82602486E4DD471 /* RotationDial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDial.swift; path = Sources/Mantis/RotationDial/RotationDial.swift; sourceTree = "<group>"; };
+		D906205DB701B543FDBA687C94BE167C /* CropView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CropView+UIScrollViewDelegate.swift"; path = "Sources/Mantis/CropView/CropView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		D924292DA1188C6E683435D45DD252A5 /* Pods-NeoastraTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeoastraTest-frameworks.sh"; sourceTree = "<group>"; };
+		DA09EB03649FA2EAAE7ADEFEBCDDB3F0 /* RotationDial+Touches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RotationDial+Touches.swift"; path = "Sources/Mantis/RotationDial/RotationDial+Touches.swift"; sourceTree = "<group>"; };
+		DE1FC53BEF61E97865C91D117146B2DE /* Pods-NeoastraTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeoastraTest-umbrella.h"; sourceTree = "<group>"; };
+		DE40FC203C695551E7B955E0BBD503B6 /* CropBoxFreeAspectFrameUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropBoxFreeAspectFrameUpdater.swift; path = Sources/Mantis/CropView/CropBoxFreeAspectFrameUpdater.swift; sourceTree = "<group>"; };
+		E3B7DA273F97DB45FA81C46385382AC9 /* Pods-NeoastraTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeoastraTestTests-dummy.m"; sourceTree = "<group>"; };
+		E4BEFC3EC59E2FC20A00BECBF928F938 /* Mantis-Resource */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Mantis-Resource"; path = Resource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E257E6857F444127ACB0DC3A66A17F /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "pt-PT.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		E8640D82E2D3A7AB05BB81ABA6DCF5E0 /* Mantis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantis.release.xcconfig; sourceTree = "<group>"; };
+		E9D323FE569ACBC43919EA662BFCF99A /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ru.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		F2085BEB80ACCAB132A6AD668A924654 /* RotationDialPlate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialPlate.swift; path = Sources/Mantis/RotationDial/RotationDialPlate.swift; sourceTree = "<group>"; };
+		F3B099ACF06F0DCC206D336DACE84D4D /* RatioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioOptions.swift; path = Sources/Mantis/RatioOptions.swift; sourceTree = "<group>"; };
+		F9728A024A46EC43A6272448B51C2F58 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "zh-Hant.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		FC5F967D5BCA446598B69E5073AFB33E /* Pods-NeoastraTest-NeoastraTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeoastraTest-NeoastraTestUITests.modulemap"; sourceTree = "<group>"; };
+		FD84561889E313CE4C72819E499A77AD /* Mantis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantis-prefix.pch"; sourceTree = "<group>"; };
+		FF7A9AE4C15F01B3480BD0E2C1FFC581 /* Pods-NeoastraTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoastraTestTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00BEEB7512E8E5F95566AC3CD229EEA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC37E10731ACBACD240844534E6F85C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5390CBAC0D369E23F5EAA734EB33C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B8BC7C952D8324E4B0197FDF693BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F86F041893E51F36D3D7FA8E7EE08DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F671688555ADCDC79DB58D5B6E2000B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF95C1F86F40DCC523254B2ED5B3A87D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86CA56968CFD7360B7B59ECB6DF98C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD287A15B8340D5BA28CBBF260CA76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366A70FEC8CD3E594AEA05B79B49CE63 /* Mantis */ = {
+			isa = PBXGroup;
+			children = (
+				4C470436968C9A57A13C174C4957DE9E /* CGAngle.swift */,
+				30E550A010C48F2F2786655508E3421A /* CGImageExtensions.swift */,
+				A737976E4763A7C5BD23579BC5611EC7 /* CoreGraphicsExtensions.swift */,
+				DE40FC203C695551E7B955E0BBD503B6 /* CropBoxFreeAspectFrameUpdater.swift */,
+				4AE702F0104DB60F0E5CAABABD9A0BD6 /* CropBoxLockedAspectFrameUpdater.swift */,
+				9805031B1765BB6B89E36A88ADF23D61 /* CropDimmingView.swift */,
+				B62AAC1621DD3E929E2F3625C2CA2F69 /* CropMaskProtocal.swift */,
+				8F8561DF1F03C727120821A9D043138A /* CropMaskViewManager.swift */,
+				7F8787DE0497EC449FC5EC6FEAA74333 /* CropOverlayView.swift */,
+				CFC47458038BC806533CD38965FD287F /* CropScrollView.swift */,
+				89061AE25F183EB70AC2F2651401156E /* CropToolbar.swift */,
+				A34EC88D3CF3CD4FA241795C202EE112 /* CropToolbarProtocol.swift */,
+				2DA6FF42549723BA4D544BE60EC3E4E1 /* CropView.swift */,
+				6DB3B64DA4866E6DF344BB966C47ED89 /* CropView+Touches.swift */,
+				D906205DB701B543FDBA687C94BE167C /* CropView+UIScrollViewDelegate.swift */,
+				26A0FC9E461DC6CC1730DAFE65EE685C /* CropViewController.swift */,
+				1A22459ECF495CEF6214F4B83947B981 /* CropViewModel.swift */,
+				8BDEAD335C6401BBF959176EC740A39C /* CropViewStatus.swift */,
+				2FAD4115230A5B422AECFC96BF8F9F37 /* CropVisualEffectView.swift */,
+				9A91CF6EF820D9EB584C3DB098715BD2 /* DialConfig.swift */,
+				11AF05AEA1D66F93229008DC7BBA6BE1 /* FixedRatioManager.swift */,
+				BBBC94AC9DE5ABB5A82FCDD52379650F /* GeometryHelper.swift */,
+				253D13949F8AA1B479618B6A8D528C8D /* ImageContainer.swift */,
+				8C04B693BF5942AA93729AF43B70893C /* LocalizedHelper.swift */,
+				125F976CD996FA919298FFF41EC027DE /* Mantis.h */,
+				21771A92800CA6787A7F577A72A6750E /* Mantis.swift */,
+				21144155D31D73A1C8CBDBC70FF9E286 /* Orientation.swift */,
+				039D29B696C1C8F2689CA599AAD45C48 /* RatioItemView.swift */,
+				F3B099ACF06F0DCC206D336DACE84D4D /* RatioOptions.swift */,
+				363AA828281D3983E6BB2746A7B4F01C /* RatioPresenter.swift */,
+				88D012B84CB865ADF47A43E026451408 /* RatioSelector.swift */,
+				1D8C8FA9656A76C4EC82A3AAFE931F20 /* RotationCalculator.swift */,
+				D74757A1C42678E6F82602486E4DD471 /* RotationDial.swift */,
+				DA09EB03649FA2EAAE7ADEFEBCDDB3F0 /* RotationDial+Touches.swift */,
+				F2085BEB80ACCAB132A6AD668A924654 /* RotationDialPlate.swift */,
+				9AF62806DE793EE4E0C22B3C3FBC437E /* RotationDialViewModel.swift */,
+				54412AAADBAB0F00BF438ADCED56733E /* ToolBarButtonImageBuilder.swift */,
+				151EC06FC9037EDC89FD071AE2083A74 /* ToolbarButtonOptions.swift */,
+				502008B9D5310B59F048B0063D9E2F13 /* UIImageExtensions.swift */,
+				B13097853E65363B70EBE7C46675DFC7 /* Resources */,
+				B44E9F2D0D24B8E05EA43104745BD177 /* Support Files */,
+			);
+			name = Mantis;
+			path = Mantis;
+			sourceTree = "<group>";
+		};
+		4AA2EAB0E28256B10E0EEC31B8374339 /* Pods-NeoastraTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				72FCA8E928C29165D26A5F7C85D22B28 /* Pods-NeoastraTestTests.modulemap */,
+				42F943990579A72DC74BE9A18434B963 /* Pods-NeoastraTestTests-acknowledgements.markdown */,
+				305ADA792756661312A76F9A0C80C2E6 /* Pods-NeoastraTestTests-acknowledgements.plist */,
+				E3B7DA273F97DB45FA81C46385382AC9 /* Pods-NeoastraTestTests-dummy.m */,
+				FF7A9AE4C15F01B3480BD0E2C1FFC581 /* Pods-NeoastraTestTests-Info.plist */,
+				1169CDA72CF65F35705BE73BF3F4A801 /* Pods-NeoastraTestTests-umbrella.h */,
+				4F0EB6BC95504022064AEB36AC87430A /* Pods-NeoastraTestTests.debug.xcconfig */,
+				45567FC34D3380FFD9ACBCB2693F8DC3 /* Pods-NeoastraTestTests.release.xcconfig */,
+			);
+			name = "Pods-NeoastraTestTests";
+			path = "Target Support Files/Pods-NeoastraTestTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		634AE2BD8CF1F6EA4634B6F68852119B /* Pods-NeoastraTest-NeoastraTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5F967D5BCA446598B69E5073AFB33E /* Pods-NeoastraTest-NeoastraTestUITests.modulemap */,
+				B382235B8861D4B32CB5D813CFC785BA /* Pods-NeoastraTest-NeoastraTestUITests-acknowledgements.markdown */,
+				8D1069527A10D8277BCE0A49A5B20078 /* Pods-NeoastraTest-NeoastraTestUITests-acknowledgements.plist */,
+				9C2E508FF7E8F0D7244154F80D6C3D97 /* Pods-NeoastraTest-NeoastraTestUITests-dummy.m */,
+				B72FD74B9682796DEB7D3E2EF148BAF7 /* Pods-NeoastraTest-NeoastraTestUITests-frameworks.sh */,
+				C57D0B3C10A988DB574F88E47E9F1F88 /* Pods-NeoastraTest-NeoastraTestUITests-Info.plist */,
+				339D660629DE13EDC1778461996A132F /* Pods-NeoastraTest-NeoastraTestUITests-umbrella.h */,
+				0C54629D21D745D58ED7FC0F91CC078F /* Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig */,
+				193744FE5CEEE629E22C41B34B2982C9 /* Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig */,
+			);
+			name = "Pods-NeoastraTest-NeoastraTestUITests";
+			path = "Target Support Files/Pods-NeoastraTest-NeoastraTestUITests";
+			sourceTree = "<group>";
+		};
+		7F2C3B113B9C9F538609247E65A85292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366A70FEC8CD3E594AEA05B79B49CE63 /* Mantis */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B13097853E65363B70EBE7C46675DFC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				175BBB20B464CFC26040D69F313992DB /* MantisLocalizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B44E9F2D0D24B8E05EA43104745BD177 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F15FBD9F6A18713A1C491D6F8018F6E /* Mantis.modulemap */,
+				718518627B9E4683192B914E26C8FA8B /* Mantis-dummy.m */,
+				4AF52CCF62B5B7645FA9DB6AFB186BDD /* Mantis-Info.plist */,
+				FD84561889E313CE4C72819E499A77AD /* Mantis-prefix.pch */,
+				37313F8E3128E556588DCE2607190BF1 /* Mantis-umbrella.h */,
+				417DDE00DAD670C819A97AB7EC4D92F9 /* Mantis.debug.xcconfig */,
+				E8640D82E2D3A7AB05BB81ABA6DCF5E0 /* Mantis.release.xcconfig */,
+				55AEA2B81E2425EAE09AD6A0B0FDAE27 /* ResourceBundle-Resource-Mantis-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mantis";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7F2C3B113B9C9F538609247E65A85292 /* Pods */,
+				DCD1BE6A04CAA06E1291DEAAFAED10BF /* Products */,
+				DA5A5254A977FBDF33B362670144C4FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5A5254A977FBDF33B362670144C4FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA71E827AC6DDC2B5AEAE660C5AD8E7E /* Pods-NeoastraTest */,
+				634AE2BD8CF1F6EA4634B6F68852119B /* Pods-NeoastraTest-NeoastraTestUITests */,
+				4AA2EAB0E28256B10E0EEC31B8374339 /* Pods-NeoastraTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCD1BE6A04CAA06E1291DEAAFAED10BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				316D22F8B19400DBC5073973480D1521 /* Mantis */,
+				E4BEFC3EC59E2FC20A00BECBF928F938 /* Mantis-Resource */,
+				8AC4BB85F69864EC866D3807683F8951 /* Pods-NeoastraTest */,
+				2BA04917E0591E3A0A1775A6C0CB26B2 /* Pods-NeoastraTest-NeoastraTestUITests */,
+				63C04AB56549C05FD79F8F248E773903 /* Pods-NeoastraTestTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA71E827AC6DDC2B5AEAE660C5AD8E7E /* Pods-NeoastraTest */ = {
+			isa = PBXGroup;
+			children = (
+				834C1CE99F1F0135AC031F97B596FBB9 /* Pods-NeoastraTest.modulemap */,
+				878B683ADF81A76981E04442214C6C72 /* Pods-NeoastraTest-acknowledgements.markdown */,
+				B3EC7BD05D239B7115B757DBC9119D43 /* Pods-NeoastraTest-acknowledgements.plist */,
+				436DECB1B245CC6E97831788EAF5E102 /* Pods-NeoastraTest-dummy.m */,
+				D924292DA1188C6E683435D45DD252A5 /* Pods-NeoastraTest-frameworks.sh */,
+				236476E35D4EA9276A5B8F94DCB19A87 /* Pods-NeoastraTest-Info.plist */,
+				DE1FC53BEF61E97865C91D117146B2DE /* Pods-NeoastraTest-umbrella.h */,
+				7A993AD618E08A87E0DA7F5E87B85813 /* Pods-NeoastraTest.debug.xcconfig */,
+				0E1409415C35B15E78D268E61F085883 /* Pods-NeoastraTest.release.xcconfig */,
+			);
+			name = "Pods-NeoastraTest";
+			path = "Target Support Files/Pods-NeoastraTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		285D4366236A3C05715BC4FBE9A2C108 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9169323E6097FEE8B4E4FC091295AFC6 /* Mantis.h in Headers */,
+				1F9A7CFEB64163C5BF0C5ED3C6705C0A /* Mantis-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC105AC952C4E5B6DAA4F81B3FAEE6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3526B76FE9B0CDC55CD0A676739B35E5 /* Pods-NeoastraTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FA6FE31522ED2120ECD509D9C594CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F006CA70ACFA63BC13696361B658E37 /* Pods-NeoastraTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6C578C7A0DAE2B0FA934C9ED0CBC47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C163C809580EBA39B40E3A786BBFDA7 /* Pods-NeoastraTest-NeoastraTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		418D3075F70B272B304B89BF311E5FAE /* Mantis-Resource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA51A72922C3C96640E21AB42B7A0C71 /* Build configuration list for PBXNativeTarget "Mantis-Resource" */;
+			buildPhases = (
+				46662224205FC7A6A69DDA97CE0B6B3E /* Sources */,
+				00BEEB7512E8E5F95566AC3CD229EEA8 /* Frameworks */,
+				F7EE59D62219F115B15B35D936FADA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mantis-Resource";
+			productName = Resource;
+			productReference = E4BEFC3EC59E2FC20A00BECBF928F938 /* Mantis-Resource */;
+			productType = "com.apple.product-type.bundle";
+		};
+		971023CDC9E8FD5D81982F18793B75AB /* Pods-NeoastraTest-NeoastraTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82028AB909CA5941754E86E8AC1ACE5B /* Build configuration list for PBXNativeTarget "Pods-NeoastraTest-NeoastraTestUITests" */;
+			buildPhases = (
+				8B6C578C7A0DAE2B0FA934C9ED0CBC47 /* Headers */,
+				36273717616543F8A48B60E79C50F2EC /* Sources */,
+				C2B8BC7C952D8324E4B0197FDF693BC5 /* Frameworks */,
+				09C36970080014D81276E63B26BFBBC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C397E15FDECDB844B37DD97E7914B6D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-NeoastraTest-NeoastraTestUITests";
+			productName = Pods_NeoastraTest_NeoastraTestUITests;
+			productReference = 2BA04917E0591E3A0A1775A6C0CB26B2 /* Pods-NeoastraTest-NeoastraTestUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A179EBECFD5BEA54857DD3EE55BC0D21 /* Pods-NeoastraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589FB776C0BB055C232E90AD73272499 /* Build configuration list for PBXNativeTarget "Pods-NeoastraTest" */;
+			buildPhases = (
+				3BC105AC952C4E5B6DAA4F81B3FAEE6A /* Headers */,
+				B6B6ACB6E74F328AED8860B230F3D436 /* Sources */,
+				F86CA56968CFD7360B7B59ECB6DF98C3 /* Frameworks */,
+				659DBF1247536D3A22F9A018B6FBD7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21EF2946390B2EC9709FD342FFB60B60 /* PBXTargetDependency */,
+			);
+			name = "Pods-NeoastraTest";
+			productName = Pods_NeoastraTest;
+			productReference = 8AC4BB85F69864EC866D3807683F8951 /* Pods-NeoastraTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081221214B0C8AE5C7B3B48FF7604B57 /* Build configuration list for PBXNativeTarget "Mantis" */;
+			buildPhases = (
+				285D4366236A3C05715BC4FBE9A2C108 /* Headers */,
+				7F9BB6851FA4E1BFF292248CEA4706F2 /* Sources */,
+				F671688555ADCDC79DB58D5B6E2000B9 /* Frameworks */,
+				FC5A453DAE7BE595EE822936EEE66027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16CF644B956E2DF37C81B69A93E0670 /* PBXTargetDependency */,
+			);
+			name = Mantis;
+			productName = Mantis;
+			productReference = 316D22F8B19400DBC5073973480D1521 /* Mantis */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC2CF965BE21CFB6D6CFDD5D4F622494 /* Pods-NeoastraTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D269B6CFB3B1E4AEAE29D192560F9A3 /* Build configuration list for PBXNativeTarget "Pods-NeoastraTestTests" */;
+			buildPhases = (
+				41FA6FE31522ED2120ECD509D9C594CA /* Headers */,
+				31DA0000254DD2453D80D9930E756254 /* Sources */,
+				BC37E10731ACBACD240844534E6F85C0 /* Frameworks */,
+				2D1471DD428B3A7BD6B9F0DD4989FF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66C90ADD80058EF7277AC812804BB99 /* PBXTargetDependency */,
+			);
+			name = "Pods-NeoastraTestTests";
+			productName = Pods_NeoastraTestTests;
+			productReference = 63C04AB56549C05FD79F8F248E773903 /* Pods-NeoastraTestTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				de,
+				en,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+				"ko-KR",
+				"pt-PT",
+				ru,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DCD1BE6A04CAA06E1291DEAAFAED10BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */,
+				418D3075F70B272B304B89BF311E5FAE /* Mantis-Resource */,
+				A179EBECFD5BEA54857DD3EE55BC0D21 /* Pods-NeoastraTest */,
+				971023CDC9E8FD5D81982F18793B75AB /* Pods-NeoastraTest-NeoastraTestUITests */,
+				DC2CF965BE21CFB6D6CFDD5D4F622494 /* Pods-NeoastraTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C36970080014D81276E63B26BFBBC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1471DD428B3A7BD6B9F0DD4989FF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659DBF1247536D3A22F9A018B6FBD7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EE59D62219F115B15B35D936FADA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A6F3BC8E2EDCD236F17A2034F544FE /* MantisLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A453DAE7BE595EE822936EEE66027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74CAFF2C4C4C8661391E41048E57523 /* Mantis-Resource in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DA0000254DD2453D80D9930E756254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8A49164D243EB99A9CB5A77F6C542D /* Pods-NeoastraTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36273717616543F8A48B60E79C50F2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8228E6571F5E037B1CE983A27C180127 /* Pods-NeoastraTest-NeoastraTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46662224205FC7A6A69DDA97CE0B6B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BB6851FA4E1BFF292248CEA4706F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342F188AEA0A89C679C794B3AFD040ED /* CGAngle.swift in Sources */,
+				628835984ABD34F86415EEA7F8AA6983 /* CGImageExtensions.swift in Sources */,
+				6008CC1A53FDAF0B207CCA7F28FC1621 /* CoreGraphicsExtensions.swift in Sources */,
+				6934E901F1259434B9BB1A1928731284 /* CropBoxFreeAspectFrameUpdater.swift in Sources */,
+				D4BF6F9EA9F150F29AC12AD587CE7F51 /* CropBoxLockedAspectFrameUpdater.swift in Sources */,
+				FFA88CDAFD8B3D09E85C3228F4BC8DEF /* CropDimmingView.swift in Sources */,
+				413ED9308093505D016CCD16724B37C5 /* CropMaskProtocal.swift in Sources */,
+				6090BA06DE5A5EBF1E937EC94A30DA03 /* CropMaskViewManager.swift in Sources */,
+				4F029C32C567A388F0F528D9CC5F4550 /* CropOverlayView.swift in Sources */,
+				19290EE20C19CE2EC20041A1598D69A2 /* CropScrollView.swift in Sources */,
+				0600E03823A5350C34BA2B2BFAD5059B /* CropToolbar.swift in Sources */,
+				A7A603050D5BC6643A7D500B75AB214F /* CropToolbarProtocol.swift in Sources */,
+				C8A4B72605A927F6F0929214CD0A0755 /* CropView.swift in Sources */,
+				FDD3990AF1E8554F8DA84F0BF5C75A09 /* CropView+Touches.swift in Sources */,
+				8023F87162FF3B11EAE1E0B5E64D1897 /* CropView+UIScrollViewDelegate.swift in Sources */,
+				C653BBBE9010C36D96AB07BB84830707 /* CropViewController.swift in Sources */,
+				71648A676783A09D462BB311AA93B00C /* CropViewModel.swift in Sources */,
+				A3E3E4DDC732162D28525B2362927940 /* CropViewStatus.swift in Sources */,
+				4CB50C4A29078EE7D371F31D51680E7A /* CropVisualEffectView.swift in Sources */,
+				F5474D9A72C0BFFF54BA44B682C508FE /* DialConfig.swift in Sources */,
+				B47A3C4517F7DEA8E31A5A535D3D64CF /* FixedRatioManager.swift in Sources */,
+				0D6047F883BA2372E974E52FB388DCF5 /* GeometryHelper.swift in Sources */,
+				C41FFF9777601A4B2BC8C5BF239A9882 /* ImageContainer.swift in Sources */,
+				AB1A6B5ED583AC6D7FBCB33288B2FFB9 /* LocalizedHelper.swift in Sources */,
+				22D506BE7CE3070979842172E05BE2E2 /* Mantis.swift in Sources */,
+				F94BF0572484C62EAABF6B368AC0222F /* Mantis-dummy.m in Sources */,
+				127DE0DA926DE3E10D5F7A079B694CBB /* Orientation.swift in Sources */,
+				A02D4D882E6E0CDD5A168D577CA7008B /* RatioItemView.swift in Sources */,
+				96AAF2CB2BF16845550B79FFB2C813AB /* RatioOptions.swift in Sources */,
+				21E98F97256923B85CDE6A4CF37F63B0 /* RatioPresenter.swift in Sources */,
+				C2FB0BC864364719A553B969A287D789 /* RatioSelector.swift in Sources */,
+				FC20693AC2B9974297CC61920CD92E6A /* RotationCalculator.swift in Sources */,
+				2D64A36A7E640DA961715E7459F195EA /* RotationDial.swift in Sources */,
+				EAC51C93BA24FB939ADFA796CB617E01 /* RotationDial+Touches.swift in Sources */,
+				9F03D16F08554C68EFA52869286DCB64 /* RotationDialPlate.swift in Sources */,
+				4EC8DC7511C436CDCBD76722331042C4 /* RotationDialViewModel.swift in Sources */,
+				1D909E50865222C5AA087DD38E11A0F3 /* ToolBarButtonImageBuilder.swift in Sources */,
+				758A0375A5B0647926566C4759DA8F01 /* ToolbarButtonOptions.swift in Sources */,
+				19A8C19E7E4435CD38DAFFD7FA9EE863 /* UIImageExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B6ACB6E74F328AED8860B230F3D436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447A907644584FEC16962E391332EA64 /* Pods-NeoastraTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21EF2946390B2EC9709FD342FFB60B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantis;
+			target = B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */;
+			targetProxy = 68A486BB2D96FDF08ED37EC3B70AC4BE /* PBXContainerItemProxy */;
+		};
+		A66C90ADD80058EF7277AC812804BB99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NeoastraTest";
+			target = A179EBECFD5BEA54857DD3EE55BC0D21 /* Pods-NeoastraTest */;
+			targetProxy = D3A916A454585CC132FD7300CDD0D201 /* PBXContainerItemProxy */;
+		};
+		C397E15FDECDB844B37DD97E7914B6D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantis;
+			target = B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */;
+			targetProxy = B1A17DAD82C672CECF9878011DC34BFD /* PBXContainerItemProxy */;
+		};
+		F16CF644B956E2DF37C81B69A93E0670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mantis-Resource";
+			target = 418D3075F70B272B304B89BF311E5FAE /* Mantis-Resource */;
+			targetProxy = 3C8DCF9A98ACB3948C3433B1E649DE4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		175BBB20B464CFC26040D69F313992DB /* MantisLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DB7856FD4946A7395D5F8AAE957B36 /* MantisLocalizable.strings */,
+				21079E84FC0E859FC3977B2E209D0983 /* MantisLocalizable.strings */,
+				24228B2E5A4FD7D9FE59CBCD37CD18F9 /* MantisLocalizable.strings */,
+				BE74088146AD5AD189B078FB1C1BF68A /* MantisLocalizable.strings */,
+				9A0AC72A4DE8BE88813AB4276A290514 /* MantisLocalizable.strings */,
+				849C41C2F9B0970F45C420A4235CAAC0 /* MantisLocalizable.strings */,
+				4849F20206B3F6948C7D056EF7F2F11F /* MantisLocalizable.strings */,
+				354AB33D67AC1CB6F3A5EB2562A4372D /* MantisLocalizable.strings */,
+				A6F747D955FF78F213BC1A74D6B28C48 /* MantisLocalizable.strings */,
+				E5E257E6857F444127ACB0DC3A66A17F /* MantisLocalizable.strings */,
+				E9D323FE569ACBC43919EA662BFCF99A /* MantisLocalizable.strings */,
+				9B04575B8B6AE67DCAF9949B44F339A6 /* MantisLocalizable.strings */,
+				F9728A024A46EC43A6272448B51C2F58 /* MantisLocalizable.strings */,
+			);
+			name = MantisLocalizable.strings;
+			path = Sources/Mantis/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F4A0A7118A97F1853D712831351EADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1409415C35B15E78D268E61F085883 /* Pods-NeoastraTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		116F708D8D3F8694C3CED20F307D569C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45567FC34D3380FFD9ACBCB2693F8DC3 /* Pods-NeoastraTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoastraTestTests/Pods-NeoastraTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoastraTestTests/Pods-NeoastraTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A552765333BC41E0F615BAD67C9CB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A993AD618E08A87E0DA7F5E87B85813 /* Pods-NeoastraTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4989EDBCD8DABFD978F97CDB3DB401C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417DDE00DAD670C819A97AB7EC4D92F9 /* Mantis.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mantis";
+				IBSC_MODULE = Mantis;
+				INFOPLIST_FILE = "Target Support Files/Mantis/ResourceBundle-Resource-Mantis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Resource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		925885F4782BB91FFC330EEA07ACD406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C54629D21D745D58ED7FC0F91CC078F /* Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9515453D5707E81A44B9D3142BD572F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8640D82E2D3A7AB05BB81ABA6DCF5E0 /* Mantis.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mantis";
+				IBSC_MODULE = Mantis;
+				INFOPLIST_FILE = "Target Support Files/Mantis/ResourceBundle-Resource-Mantis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Resource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A2E57CAB3F9D9C58F66E6F9BC56EDF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8640D82E2D3A7AB05BB81ABA6DCF5E0 /* Mantis.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mantis/Mantis-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mantis/Mantis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mantis/Mantis.modulemap";
+				PRODUCT_MODULE_NAME = Mantis;
+				PRODUCT_NAME = Mantis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABD0F3EFDF5A3226C255B470617D26AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193744FE5CEEE629E22C41B34B2982C9 /* Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C781B7A548952F0E7C2BFD6074AA5708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0EB6BC95504022064AEB36AC87430A /* Pods-NeoastraTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoastraTestTests/Pods-NeoastraTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoastraTestTests/Pods-NeoastraTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CABE1BACF6A07563B18B7359A12F6B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417DDE00DAD670C819A97AB7EC4D92F9 /* Mantis.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mantis/Mantis-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mantis/Mantis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mantis/Mantis.modulemap";
+				PRODUCT_MODULE_NAME = Mantis;
+				PRODUCT_NAME = Mantis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081221214B0C8AE5C7B3B48FF7604B57 /* Build configuration list for PBXNativeTarget "Mantis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE1BACF6A07563B18B7359A12F6B7B /* Debug */,
+				A2E57CAB3F9D9C58F66E6F9BC56EDF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D269B6CFB3B1E4AEAE29D192560F9A3 /* Build configuration list for PBXNativeTarget "Pods-NeoastraTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C781B7A548952F0E7C2BFD6074AA5708 /* Debug */,
+				116F708D8D3F8694C3CED20F307D569C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589FB776C0BB055C232E90AD73272499 /* Build configuration list for PBXNativeTarget "Pods-NeoastraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A552765333BC41E0F615BAD67C9CB2B /* Debug */,
+				0F4A0A7118A97F1853D712831351EADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82028AB909CA5941754E86E8AC1ACE5B /* Build configuration list for PBXNativeTarget "Pods-NeoastraTest-NeoastraTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925885F4782BB91FFC330EEA07ACD406 /* Debug */,
+				ABD0F3EFDF5A3226C255B470617D26AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA51A72922C3C96640E21AB42B7A0C71 /* Build configuration list for PBXNativeTarget "Mantis-Resource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4989EDBCD8DABFD978F97CDB3DB401C5 /* Debug */,
+				9515453D5707E81A44B9D3142BD572F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

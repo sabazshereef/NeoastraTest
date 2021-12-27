@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411BDBB227798D9B0054B11E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BDBB127798D9B0054B11E /* ImagePicker.swift */; };
+		411BDBB427798ECF0054B11E /* ImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BDBB327798ECF0054B11E /* ImageEditor.swift */; };
+		411BDBB62779B0AF0054B11E /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BDBB52779B0AF0054B11E /* ImageSaver.swift */; };
+		4133CB312774AAC0008A459B /* NeoastraTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4133CB302774AAC0008A459B /* NeoastraTestApp.swift */; };
+		4133CB332774AAC0008A459B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4133CB322774AAC0008A459B /* ContentView.swift */; };
+		4133CB352774AAC7008A459B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4133CB342774AAC7008A459B /* Assets.xcassets */; };
+		4133CB382774AAC7008A459B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4133CB372774AAC7008A459B /* Preview Assets.xcassets */; };
+		4133CB422774AAC8008A459B /* NeoastraTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4133CB412774AAC8008A459B /* NeoastraTestTests.swift */; };
+		4133CB4C2774AAC8008A459B /* NeoastraTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4133CB4B2774AAC8008A459B /* NeoastraTestUITests.swift */; };
+		4133CB4E2774AAC8008A459B /* NeoastraTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4133CB4D2774AAC8008A459B /* NeoastraTestUITestsLaunchTests.swift */; };
+		71D1D0C90B47E306094B33B4 /* Pods_NeoastraTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA8A4966B63E40BDA8B9388 /* Pods_NeoastraTestTests.framework */; };
+		E2B69B780D438BDF37455758 /* Pods_NeoastraTest_NeoastraTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C798DE750EE6AE35A6CE441 /* Pods_NeoastraTest_NeoastraTestUITests.framework */; };
+		EC47B48375D5F587170A3DFC /* Pods_NeoastraTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22194A3D66306A4A6EB7468 /* Pods_NeoastraTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4133CB3E2774AAC8008A459B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4133CB252774AAC0008A459B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4133CB2C2774AAC0008A459B;
+			remoteInfo = NeoastraTest;
+		};
+		4133CB482774AAC8008A459B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4133CB252774AAC0008A459B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4133CB2C2774AAC0008A459B;
+			remoteInfo = NeoastraTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C798DE750EE6AE35A6CE441 /* Pods_NeoastraTest_NeoastraTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoastraTest_NeoastraTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3614739D32DD40F985C03123 /* Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig"; path = "Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		411BDBB127798D9B0054B11E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		411BDBB327798ECF0054B11E /* ImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditor.swift; sourceTree = "<group>"; };
+		411BDBB52779B0AF0054B11E /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		4133CB2D2774AAC0008A459B /* NeoastraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoastraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4133CB302774AAC0008A459B /* NeoastraTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoastraTestApp.swift; sourceTree = "<group>"; };
+		4133CB322774AAC0008A459B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4133CB342774AAC7008A459B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4133CB372774AAC7008A459B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4133CB3D2774AAC8008A459B /* NeoastraTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoastraTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4133CB412774AAC8008A459B /* NeoastraTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoastraTestTests.swift; sourceTree = "<group>"; };
+		4133CB472774AAC8008A459B /* NeoastraTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoastraTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4133CB4B2774AAC8008A459B /* NeoastraTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoastraTestUITests.swift; sourceTree = "<group>"; };
+		4133CB4D2774AAC8008A459B /* NeoastraTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoastraTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41B91382277872FA00ED6565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		51B73E966306BB73AD736828 /* Pods-NeoastraTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoastraTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NeoastraTestTests/Pods-NeoastraTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		940817312A4B7945B24B5B6F /* Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B266A0F41021019DC207277F /* Pods-NeoastraTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoastraTest.release.xcconfig"; path = "Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest.release.xcconfig"; sourceTree = "<group>"; };
+		D22194A3D66306A4A6EB7468 /* Pods_NeoastraTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoastraTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2727F9C03B4005956ACC15B /* Pods-NeoastraTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoastraTestTests.release.xcconfig"; path = "Target Support Files/Pods-NeoastraTestTests/Pods-NeoastraTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D345C1635D96B7FB726F5431 /* Pods-NeoastraTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoastraTest.debug.xcconfig"; path = "Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA8A4966B63E40BDA8B9388 /* Pods_NeoastraTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoastraTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4133CB2A2774AAC0008A459B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC47B48375D5F587170A3DFC /* Pods_NeoastraTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4133CB3A2774AAC8008A459B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D1D0C90B47E306094B33B4 /* Pods_NeoastraTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4133CB442774AAC8008A459B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B69B780D438BDF37455758 /* Pods_NeoastraTest_NeoastraTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32655542B4E32D978190598C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D345C1635D96B7FB726F5431 /* Pods-NeoastraTest.debug.xcconfig */,
+				B266A0F41021019DC207277F /* Pods-NeoastraTest.release.xcconfig */,
+				940817312A4B7945B24B5B6F /* Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig */,
+				3614739D32DD40F985C03123 /* Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig */,
+				51B73E966306BB73AD736828 /* Pods-NeoastraTestTests.debug.xcconfig */,
+				D2727F9C03B4005956ACC15B /* Pods-NeoastraTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4133CB242774AAC0008A459B = {
+			isa = PBXGroup;
+			children = (
+				4133CB2F2774AAC0008A459B /* NeoastraTest */,
+				4133CB402774AAC8008A459B /* NeoastraTestTests */,
+				4133CB4A2774AAC8008A459B /* NeoastraTestUITests */,
+				4133CB2E2774AAC0008A459B /* Products */,
+				32655542B4E32D978190598C /* Pods */,
+				9B4BB6A8D83E0C1200B3B0D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4133CB2E2774AAC0008A459B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4133CB2D2774AAC0008A459B /* NeoastraTest.app */,
+				4133CB3D2774AAC8008A459B /* NeoastraTestTests.xctest */,
+				4133CB472774AAC8008A459B /* NeoastraTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4133CB2F2774AAC0008A459B /* NeoastraTest */ = {
+			isa = PBXGroup;
+			children = (
+				41B91382277872FA00ED6565 /* Info.plist */,
+				4133CB302774AAC0008A459B /* NeoastraTestApp.swift */,
+				4133CB322774AAC0008A459B /* ContentView.swift */,
+				411BDBB127798D9B0054B11E /* ImagePicker.swift */,
+				4133CB342774AAC7008A459B /* Assets.xcassets */,
+				4133CB362774AAC7008A459B /* Preview Content */,
+				411BDBB327798ECF0054B11E /* ImageEditor.swift */,
+				411BDBB52779B0AF0054B11E /* ImageSaver.swift */,
+			);
+			path = NeoastraTest;
+			sourceTree = "<group>";
+		};
+		4133CB362774AAC7008A459B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4133CB372774AAC7008A459B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4133CB402774AAC8008A459B /* NeoastraTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4133CB412774AAC8008A459B /* NeoastraTestTests.swift */,
+			);
+			path = NeoastraTestTests;
+			sourceTree = "<group>";
+		};
+		4133CB4A2774AAC8008A459B /* NeoastraTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4133CB4B2774AAC8008A459B /* NeoastraTestUITests.swift */,
+				4133CB4D2774AAC8008A459B /* NeoastraTestUITestsLaunchTests.swift */,
+			);
+			path = NeoastraTestUITests;
+			sourceTree = "<group>";
+		};
+		9B4BB6A8D83E0C1200B3B0D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22194A3D66306A4A6EB7468 /* Pods_NeoastraTest.framework */,
+				0C798DE750EE6AE35A6CE441 /* Pods_NeoastraTest_NeoastraTestUITests.framework */,
+				FCA8A4966B63E40BDA8B9388 /* Pods_NeoastraTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4133CB2C2774AAC0008A459B /* NeoastraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4133CB512774AAC8008A459B /* Build configuration list for PBXNativeTarget "NeoastraTest" */;
+			buildPhases = (
+				588BEA500E79CC45F3098D28 /* [CP] Check Pods Manifest.lock */,
+				4133CB292774AAC0008A459B /* Sources */,
+				4133CB2A2774AAC0008A459B /* Frameworks */,
+				4133CB2B2774AAC0008A459B /* Resources */,
+				E82231C40B18EC7CB9CB366F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoastraTest;
+			productName = NeoastraTest;
+			productReference = 4133CB2D2774AAC0008A459B /* NeoastraTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4133CB3C2774AAC8008A459B /* NeoastraTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4133CB542774AAC8008A459B /* Build configuration list for PBXNativeTarget "NeoastraTestTests" */;
+			buildPhases = (
+				80F8B557D577B7BAF3770103 /* [CP] Check Pods Manifest.lock */,
+				4133CB392774AAC8008A459B /* Sources */,
+				4133CB3A2774AAC8008A459B /* Frameworks */,
+				4133CB3B2774AAC8008A459B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4133CB3F2774AAC8008A459B /* PBXTargetDependency */,
+			);
+			name = NeoastraTestTests;
+			productName = NeoastraTestTests;
+			productReference = 4133CB3D2774AAC8008A459B /* NeoastraTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4133CB462774AAC8008A459B /* NeoastraTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4133CB572774AAC8008A459B /* Build configuration list for PBXNativeTarget "NeoastraTestUITests" */;
+			buildPhases = (
+				07823D471D6A9C4D501312FB /* [CP] Check Pods Manifest.lock */,
+				4133CB432774AAC8008A459B /* Sources */,
+				4133CB442774AAC8008A459B /* Frameworks */,
+				4133CB452774AAC8008A459B /* Resources */,
+				562D2E6876057F0FF1ADC352 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4133CB492774AAC8008A459B /* PBXTargetDependency */,
+			);
+			name = NeoastraTestUITests;
+			productName = NeoastraTestUITests;
+			productReference = 4133CB472774AAC8008A459B /* NeoastraTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4133CB252774AAC0008A459B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4133CB2C2774AAC0008A459B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4133CB3C2774AAC8008A459B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4133CB2C2774AAC0008A459B;
+					};
+					4133CB462774AAC8008A459B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4133CB2C2774AAC0008A459B;
+					};
+				};
+			};
+			buildConfigurationList = 4133CB282774AAC0008A459B /* Build configuration list for PBXProject "NeoastraTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4133CB242774AAC0008A459B;
+			productRefGroup = 4133CB2E2774AAC0008A459B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4133CB2C2774AAC0008A459B /* NeoastraTest */,
+				4133CB3C2774AAC8008A459B /* NeoastraTestTests */,
+				4133CB462774AAC8008A459B /* NeoastraTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4133CB2B2774AAC0008A459B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4133CB382774AAC7008A459B /* Preview Assets.xcassets in Resources */,
+				4133CB352774AAC7008A459B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4133CB3B2774AAC8008A459B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4133CB452774AAC8008A459B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07823D471D6A9C4D501312FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoastraTest-NeoastraTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562D2E6876057F0FF1ADC352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoastraTest-NeoastraTestUITests/Pods-NeoastraTest-NeoastraTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588BEA500E79CC45F3098D28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoastraTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F8B557D577B7BAF3770103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoastraTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82231C40B18EC7CB9CB366F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoastraTest/Pods-NeoastraTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4133CB292774AAC0008A459B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411BDBB227798D9B0054B11E /* ImagePicker.swift in Sources */,
+				4133CB332774AAC0008A459B /* ContentView.swift in Sources */,
+				411BDBB62779B0AF0054B11E /* ImageSaver.swift in Sources */,
+				411BDBB427798ECF0054B11E /* ImageEditor.swift in Sources */,
+				4133CB312774AAC0008A459B /* NeoastraTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4133CB392774AAC8008A459B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4133CB422774AAC8008A459B /* NeoastraTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4133CB432774AAC8008A459B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4133CB4C2774AAC8008A459B /* NeoastraTestUITests.swift in Sources */,
+				4133CB4E2774AAC8008A459B /* NeoastraTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4133CB3F2774AAC8008A459B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4133CB2C2774AAC0008A459B /* NeoastraTest */;
+			targetProxy = 4133CB3E2774AAC8008A459B /* PBXContainerItemProxy */;
+		};
+		4133CB492774AAC8008A459B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4133CB2C2774AAC0008A459B /* NeoastraTest */;
+			targetProxy = 4133CB482774AAC8008A459B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4133CB4F2774AAC8008A459B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4133CB502774AAC8008A459B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4133CB522774AAC8008A459B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D345C1635D96B7FB726F5431 /* Pods-NeoastraTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoastraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = RYF43CDV33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoastraTest/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want save the edited photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabaz-shereef.NeoastraTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4133CB532774AAC8008A459B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B266A0F41021019DC207277F /* Pods-NeoastraTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoastraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = RYF43CDV33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoastraTest/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want save the edited photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabaz-shereef.NeoastraTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4133CB552774AAC8008A459B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B73E966306BB73AD736828 /* Pods-NeoastraTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYF43CDV33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabaz-shereef.NeoastraTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoastraTest.app/NeoastraTest";
+			};
+			name = Debug;
+		};
+		4133CB562774AAC8008A459B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2727F9C03B4005956ACC15B /* Pods-NeoastraTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYF43CDV33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabaz-shereef.NeoastraTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoastraTest.app/NeoastraTest";
+			};
+			name = Release;
+		};
+		4133CB582774AAC8008A459B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940817312A4B7945B24B5B6F /* Pods-NeoastraTest-NeoastraTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYF43CDV33;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabaz-shereef.NeoastraTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoastraTest;
+			};
+			name = Debug;
+		};
+		4133CB592774AAC8008A459B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3614739D32DD40F985C03123 /* Pods-NeoastraTest-NeoastraTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYF43CDV33;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabaz-shereef.NeoastraTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoastraTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4133CB282774AAC0008A459B /* Build configuration list for PBXProject "NeoastraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4133CB4F2774AAC8008A459B /* Debug */,
+				4133CB502774AAC8008A459B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4133CB512774AAC8008A459B /* Build configuration list for PBXNativeTarget "NeoastraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4133CB522774AAC8008A459B /* Debug */,
+				4133CB532774AAC8008A459B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4133CB542774AAC8008A459B /* Build configuration list for PBXNativeTarget "NeoastraTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4133CB552774AAC8008A459B /* Debug */,
+				4133CB562774AAC8008A459B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4133CB572774AAC8008A459B /* Build configuration list for PBXNativeTarget "NeoastraTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4133CB582774AAC8008A459B /* Debug */,
+				4133CB592774AAC8008A459B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4133CB252774AAC0008A459B /* Project object */;
+}

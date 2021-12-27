@@ -1,0 +1,6 @@
+framework module Pods_NeoastraTest_NeoastraTestUITests {
+  umbrella header "Pods-NeoastraTest-NeoastraTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

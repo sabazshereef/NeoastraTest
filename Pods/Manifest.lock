@@ -1,0 +1,16 @@
+PODS:
+  - Mantis (1.4.13)
+
+DEPENDENCIES:
+  - Mantis (~> 1.4.5)
+
+SPEC REPOS:
+  trunk:
+    - Mantis
+
+SPEC CHECKSUMS:
+  Mantis: 5d93257edc89b07dc6898c4133b3838e37ee01ea
+
+PODFILE CHECKSUM: 0985c66dc7068a49cfdb9318a42ad0a639f6ffcc
+
+COCOAPODS: 1.11.2
